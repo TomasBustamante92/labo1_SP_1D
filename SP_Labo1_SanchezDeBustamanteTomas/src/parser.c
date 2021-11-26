@@ -72,22 +72,26 @@ int parser_PerritoToText(FILE* pFile , LinkedList* pArrayListPerritos)
 	ePerrito* pPerrito = NULL;
 	int id;
 	char nombre[128];
+	float peso;
 	int edad;
 	char raza[128];
+	float cantidadComidaRacion;
 
 	if(pFile != NULL && pArrayListPerritos != NULL && len > 0)
 	{
-		fprintf(pFile, "%s,%s,%s,%s\n", "ID", "Nombre", "Edad", "Raza");
+		fprintf(pFile, "%s,%s,%s,%s,%s,%s\n", "ID", "Nombre", "Peso", "Edad", "Raza","cantidadComidaRacion");
 		for(i=0 ; i<len ; i++)
 		{
 			pPerrito = (ePerrito*)ll_get(pArrayListPerritos, i);
 
 			perrito_getId(pPerrito, &id);
 			perrito_getNombre(pPerrito, nombre);
+			perrito_getPeso(pPerrito, &peso);
 			perrito_getEdad(pPerrito, &edad);
 			perrito_getRaza(pPerrito, raza);
+			perrito_getCantidadComidaRacion(pPerrito, &cantidadComidaRacion);
 
-			fprintf(pFile, "%d,%s,%d,%s\n", id, nombre, edad, raza);
+			fprintf(pFile, "%d,%s,%f,%d,%s,%f\n", id, nombre, peso, edad, raza, cantidadComidaRacion);
 			pPerrito = NULL;
 		}
 

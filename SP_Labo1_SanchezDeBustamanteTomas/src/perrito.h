@@ -27,6 +27,7 @@ typedef struct
 
 // ---- COMENTAAAAR ---- //
 
+int ePerrito_laQueFiltra(void* pElement);
 void perrito_printPerritoConComida(ePerrito perrito);
 void perrito_printTopMenuConComida(void);
 int perrito_getCantidadComidaRacion(ePerrito* this,float* cantidadComidaRacion);

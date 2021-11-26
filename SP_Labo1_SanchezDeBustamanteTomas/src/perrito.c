@@ -22,14 +22,24 @@ int ePerrito_laQueMapea(void* pElement)
 	return retorno;
 }
 
-int perrito_filtrarPerritos(void* pElement)
+int ePerrito_laQueFiltra(void* pElement)
 {
 	int retorno = -1;
 	ePerrito* pPerrito = (ePerrito*)pElement;
+	char raza[128];
+	int edad;
+	float comida;
 
 	if(pElement != NULL)
 	{
+		perrito_getRaza(pPerrito, raza);
+		perrito_getEdad(pPerrito, &edad);
+		perrito_getCantidadComidaRacion(pPerrito, &comida);
 
+		if(strcmp(raza,"Galgo") == 0 && edad > 10 && comida < 200)
+		{
+			retorno = 0;
+		}
 	}
 	return retorno;
 }
