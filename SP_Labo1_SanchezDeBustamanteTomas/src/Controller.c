@@ -104,9 +104,10 @@ int controller_saveAsText(char* path , LinkedList* pArrayListPerritos)
 	if(path != NULL && pArrayListPerritos != NULL && pFile != NULL)
 	{
 		parser_PerritoToText(pFile, pArrayListPerritos);
-		fclose(pFile);
 		retorno = 1;
 	}
+
+	fclose(pFile);
     return retorno;
 }
 

@@ -96,7 +96,7 @@ int main()
 					if(ll_map(listaPerritos, ePerrito_laQueMapea) != -1)
 					{
 						input_limpiarPantalla();
-						printf("Elemento agregado con exito! \n");
+						printf("Comida calculada con exito! \n");
 						input_systemPause();
 						cargarComida = 1;
 					}
@@ -176,7 +176,7 @@ int main()
             		{
 						if(listaGalgos != 0)
 						{
-							if(controller_saveAsText("galgosFlaquitos.csv", listaPerritos))
+							if(controller_saveAsText("galgosFlaquitos.csv", galgosFlaquitos))
 							{
 								input_limpiarPantalla();
 								printf("Lista guardada con exito! \n");

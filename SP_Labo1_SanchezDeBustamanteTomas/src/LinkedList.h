@@ -31,8 +31,7 @@ struct LinkedList
 }typedef LinkedList;
 #endif
 
-
-// ---- SACARR // COMENTARR ---- //
+// Comentadas en el .C
 
 LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*));
 int ll_map(LinkedList* this, int(*pFunc)(void*));

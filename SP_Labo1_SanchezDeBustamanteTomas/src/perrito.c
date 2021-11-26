@@ -44,39 +44,6 @@ int ePerrito_laQueFiltra(void* pElement)
 	return retorno;
 }
 
-int perrito_getUltimoId(void)
-{
-	int ultimoId = -1;
-	char ultimoIdStr[100];
-
-	FILE* pFile = fopen("ultimoId.txt", "r");
-
-	if(pFile != NULL)
-	{
-		fscanf(pFile, "%[^\n]", ultimoIdStr);
-		ultimoId = atoi(ultimoIdStr);
-	}
-	fclose(pFile);
-
-	return ultimoId;
-}
-
-int perrito_setUltimoId(int ultimoId)
-{
-	int retorno = -1;
-
-	FILE* pFile = fopen("ultimoId.txt", "w");
-
-	if(pFile != NULL)
-	{
-		fprintf(pFile, "%d \n", ultimoId);
-		retorno = 0;
-	}
-	fclose(pFile);
-
-	return retorno;
-}
-
 
 int perrito_sortByName(void* perrito1,void* perrito2)
 {

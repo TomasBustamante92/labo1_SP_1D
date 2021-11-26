@@ -7,6 +7,12 @@
 static Node* getNode(LinkedList* this, int nodeIndex);
 static int addNode(LinkedList* this, int nodeIndex,void* pElement);
 
+/// @fn LinkedList ll_filter*(LinkedList*, int(*)(void*))
+/// @brief crea una nueva lista filtrando elementos de una lista que se pase por parametro
+///
+/// @param this
+/// @param pFunc
+/// @return devuelve lista nueva
 LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
 {
     LinkedList* newList = NULL;
@@ -26,7 +32,7 @@ LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
 				element = ll_get(this, i);
 				condicion = pFunc(element);
 
-				if(condicion == 1)
+				if(condicion == 0)
 				{
 					ll_add(newList, element);
 				}
@@ -36,6 +42,12 @@ LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
 	return newList;
 }
 
+/// @fn int ll_map(LinkedList*, int(*)(void*))
+/// @brief modifica los elementos de la lista
+///
+/// @param this
+/// @param pFunc
+/// @return si los pudo modificar devuelve [0], caso contrario [-1]
 int ll_map(LinkedList* this, int(*pFunc)(void*))
 {
 	int retorno = -1;
