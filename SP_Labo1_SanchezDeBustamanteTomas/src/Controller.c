@@ -270,97 +270,15 @@ int controller_ListPerritos(LinkedList* pArrayListPerritos)
 int controller_sortPerritos(LinkedList* pArrayListPerritos)
 {
 	int retorno = 0;
-	int opcion;
-	int resultado = 0;
 
 	if(pArrayListPerritos != NULL)
 	{
-
 		input_limpiarPantalla();
-		input_getNumero(&opcion,	"1. Ordernar por Nombre A-Z \n"
-									"2. Ordenar por Nombre Z-A \n"
-									"3. Ordenar por edad 0-9 \n"
-									"4. Ordenar por edad 9-0 \n"
-									"5. Ordenar por Horas Trabajadas 0-9 \n"
-									"6. Ordenar por Horas Trabajadas 9-0 \n"
-									"7. Atras \n"
-									"- - - - - - - - - - - - - - - - - \n"
-									"Ingresar opcion: ",
-									"1. Ordernar por Nombre A-Z \n"
-									"2. Ordenar por Nombre Z-A \n"
-									"3. Ordenar por Salario 0-9 \n"
-									"4. Ordenar por Salario 9-0 \n"
-									"5. Ordenar por Horas Trabajadas 0-9 \n"
-									"6. Ordenar por Horas Trabajadas 9-0 \n"
-									"7. Atras \n"
-									"- - - - - - - - - - - - - - - - - \n"
-									"ERROR. Ingresar opcion: ",1, 7);
-		switch(opcion)
+		printf("Cargando... \n");
+
+		if(ll_sort(pArrayListPerritos, perrito_sortByName, 1) == 0)
 		{
-			case 1:
-				input_limpiarPantalla();
-				printf("Cargando... \n");
-				if(ll_sort(pArrayListPerritos, perrito_sortByName, 1) == 0)
-				{
-					resultado = 1;
-				}
-				break;
-
-			case 2:
-				input_limpiarPantalla();
-				printf("Cargando... \n");
-				if(ll_sort(pArrayListPerritos, perrito_sortByName, 0) == 0)
-				{
-					resultado = 1;
-				}
-				break;
-
-			case 3:
-				input_limpiarPantalla();
-				printf("Cargando... \n");
-				if(ll_sort(pArrayListPerritos, employee_sortByEdad, 1) == 0)
-				{
-					resultado = 1;
-				}
-				break;
-
-			case 4:
-				input_limpiarPantalla();
-				printf("Cargando... \n");
-				if(ll_sort(pArrayListPerritos, employee_sortByEdad, 0) == 0)
-				{
-					resultado = 1;
-				}
-				break;
-
-				/*
-			case 5:
-				input_limpiarPantalla();
-				printf("Cargando... \n");
-				if(ll_sort(pArrayListPerritos, employee_sortByWorkedHours, 1) == 0)
-				{
-					resultado = 1;
-				}
-				break;
-			case 6:
-				input_limpiarPantalla();
-				printf("Cargando... \n");
-				if(ll_sort(pArrayListPerritos, employee_sortByWorkedHours, 0) == 0)
-				{
-					resultado = 1;
-				}
-				break;
-			case 7:
-				input_limpiarPantalla();
-				break;
-				*/
-		}
-
-		if(resultado == 1)
-		{
-			input_limpiarPantalla();
-			printf("Perritos ordenados con exito! \n");
-			input_systemPause();
+		retorno = 1;
 		}
 		else
 		{

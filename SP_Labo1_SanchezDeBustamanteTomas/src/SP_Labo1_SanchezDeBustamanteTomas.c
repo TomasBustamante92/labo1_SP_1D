@@ -68,6 +68,7 @@ int main()
 
             	break;
             case 2:
+            	controller_sortPerritos(listaPerritos);
 				if(controller_ListPerritos(listaPerritos))
 				{
 					input_systemPause();
