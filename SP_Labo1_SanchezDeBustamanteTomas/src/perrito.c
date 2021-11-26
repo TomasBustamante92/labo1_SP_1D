@@ -106,23 +106,23 @@ int perrito_sortByName(void* perrito1,void* perrito2)
 	return retorno;
 }
 
-int employee_sortByEdad(void* perrito1, void* perrito2)
+int perrito_sortById(void* perrito1, void* perrito2)
 {
 	int retorno = 0;
 	ePerrito* perritoAux1 = (ePerrito*)perrito1;
 	ePerrito* perritoAux2 = (ePerrito*)perrito2;
-	int edad1;
-	int edad2;
+	int id1;
+	int id2;
 
 	if(perritoAux1 != NULL && perritoAux2 != NULL)
 	{
-		if(perrito_getEdad(perritoAux1, &edad1) == 0 && perrito_getEdad(perritoAux2, &edad2) == 0)
+		if(perrito_getId(perritoAux1, &id1) == 0 && perrito_getId(perritoAux2, &id2) == 0)
 		{
-			if(edad1 > edad2)
+			if(id1 > id2)
 			{
 				retorno = 1;
 			}
-			else if(edad1 < edad2)
+			else if(id1 < id2)
 			{
 				retorno = -1;
 			}
@@ -302,6 +302,7 @@ int perrito_setRaza(ePerrito* this,char* raza)
 
 	if(this != NULL && raza != NULL)
 	{
+		raza[strlen(raza)-1] = '\0';
 		strcpy(this->raza, raza);
 		retorno = 0;
 	}

@@ -45,7 +45,7 @@ int perrito_getEdad(ePerrito* this,int* edad);
 int perrito_setRaza(ePerrito* this,char* raza);
 int perrito_getRaza(ePerrito* this,char* raza);
 int perrito_sortByName(void* perrito1,void* perrito2);
-int employee_sortByEdad(void* perrito1, void* perrito2);
+int perrito_sortById(void* perrito1, void* perrito2);
 int perrito_getUltimoId(void);
 int perrito_setUltimoId(int ultimoId);
 

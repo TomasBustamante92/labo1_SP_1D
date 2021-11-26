@@ -33,26 +33,20 @@ int main()
     								"2. Listar perritos \n"
     								"3. Calcular cantidad de comida \n"
     								"4. Listar perritos con raciones \n"
-    								"5.  \n"
-    								"6.  \n"
-    								"7. Ordenar empleados \n"
-    								"8. Guardar los datos de los empleados en el archivo data.csv (modo texto) \n"
-    								"9. Guardar los datos de los empleados en el archivo data.bin (modo binario) \n"
-    								"10. Salir \n"
+    								"5. Filtrar galgos flaquitos \n"
+    								"6. Guardar lista solo galgos \n"
+    								"7. Salir \n"
     								"- - - - - - - - - - - - - - - - - - - \n"
-    								"Ingrese opcion: ",
-									"1. Cargar los datos de los empleados desde el archivo data.csv (modo texto) \n"
-									"2. Cargar los datos de los empleados desde el archivo data.bin (modo binario) \n"
-									"3. Alta de empleado \n"
-    								"4. Modificar datos de empleado \n"
-    								"5. Baja de empleado \n"
-    								"6. Listar empleados \n"
-    								"7. Ordenar empleados \n"
-    								"8. Guardar los datos de los empleados en el archivo data.csv (modo texto) \n"
-    								"9. Guardar los datos de los empleados en el archivo data.bin (modo binario) \n"
-    								"10. Salir \n"
-    								"- - - - - - - - - - - - - - - - - - - \n"
-    								"ERROR. Ingrese opcion: ", 1, 10);
+									"Ingrese opcion: ",
+									"1. Cargar lista \n"
+									"2. Listar perritos \n"
+									"3. Calcular cantidad de comida \n"
+									"4. Listar perritos con raciones \n"
+									"5. Filtrar galgos flaquitos \n"
+									"6. Guardar lista solo galgos \n"
+									"7. Salir \n"
+									"- - - - - - - - - - - - - - - - - - - \n"
+    								"ERROR. Ingrese opcion: ", 1, 7);
 
         switch(option)
         {
@@ -76,7 +70,7 @@ int main()
             case 2:
             	if(cargarLista != 0)
             	{
-					controller_sortPerritos(listaPerritos);
+					controller_sortPerritos(listaPerritos,1);
 					if(controller_ListPerritos(listaPerritos,1))
 					{
 						input_systemPause();
@@ -127,6 +121,7 @@ int main()
             	{
             		if(cargarComida != 0)
             		{
+    					controller_sortPerritos(listaPerritos,2);
 						if(controller_ListPerritos(listaPerritos,2))
 						{
 							input_systemPause();
@@ -177,27 +172,36 @@ int main()
             case 6:
             	if(cargarLista != 0)
             	{
-            		if(listaGalgos != 0)
+            		if(cargarComida != 0)
             		{
-                    	if(controller_saveAsText("galgosFlaquitos.csv", listaPerritos))
-        				{
-        					input_limpiarPantalla();
-                        	printf("Lista guardada con exito! \n");
-                        	input_systemPause();
-        				}
-        				else
-        				{
-        					input_limpiarPantalla();
-                        	printf("Error al guardar la lista! \n");
-                        	input_systemPause();
-        				}
+						if(listaGalgos != 0)
+						{
+							if(controller_saveAsText("galgosFlaquitos.csv", listaPerritos))
+							{
+								input_limpiarPantalla();
+								printf("Lista guardada con exito! \n");
+								input_systemPause();
+							}
+							else
+							{
+								input_limpiarPantalla();
+								printf("Error al guardar la lista! \n");
+								input_systemPause();
+							}
+						}
+						else
+						{
+							input_limpiarPantalla();
+							printf("Filtrar la lista primero! \n");
+							input_systemPause();
+						}
             		}
-            		else
-            		{
+                	else
+                	{
     					input_limpiarPantalla();
-    					printf("Filtrar la lista primero! \n");
+    					printf("Cargar comida primero! \n");
     					input_systemPause();
-            		}
+                	}
             	}
             	else
             	{
@@ -206,9 +210,14 @@ int main()
 					input_systemPause();
             	}
             	break;
+
+            case 7:
+				input_limpiarPantalla();
+				printf("Adios! \n");
+            	break;
         }
 
-    }while(option != 11);
+    }while(option != 7);
 
     return 0;
 }

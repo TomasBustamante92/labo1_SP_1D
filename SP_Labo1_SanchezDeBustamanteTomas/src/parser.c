@@ -36,33 +36,6 @@ int parser_PerritosFromText(FILE* pFile , LinkedList* pArrayListPerritos)
 }
 
 
-int parser_PerritoFromBinary(FILE* pFile , LinkedList* pArrayListPerritos)
-{
-	int retorno = 0;
-	ePerrito* pPerrito = NULL;
-
-
-	if(pFile != NULL && pArrayListPerritos != NULL)
-	{
-		while(!feof(pFile))
-		{
-			fread(pPerrito, sizeof(ePerrito), 1, pFile);
-			pPerrito = perrito_new();
-
-			if(feof(pFile))
-			{
-				break;
-			}
-			ll_add(pArrayListPerritos, pPerrito);
-			pPerrito = NULL;
-		}
-
-		retorno = 1;
-	}
-
-    return retorno;
-}
-
 
 int parser_PerritoToText(FILE* pFile , LinkedList* pArrayListPerritos)
 {
@@ -91,7 +64,7 @@ int parser_PerritoToText(FILE* pFile , LinkedList* pArrayListPerritos)
 			perrito_getRaza(pPerrito, raza);
 			perrito_getCantidadComidaRacion(pPerrito, &cantidadComidaRacion);
 
-			fprintf(pFile, "%d,%s,%f,%d,%s,%f\n", id, nombre, peso, edad, raza, cantidadComidaRacion);
+			fprintf(pFile, "%d,%s,%.2f,%d,%s,%.2f\n", id, nombre, peso, edad, raza, cantidadComidaRacion);
 			pPerrito = NULL;
 		}
 
