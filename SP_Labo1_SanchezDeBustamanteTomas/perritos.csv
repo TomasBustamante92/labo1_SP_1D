@@ -1,0 +1,1001 @@
+id,nombre,peso,edad,raza
+1,Tim,7.84,19,Pastor Aleman
+2,Lavina,27.32,8,Pastor Aleman
+3,Gerianne,37.03,20,Bloodhound
+4,Naomi,38.91,4,Gran Danes
+5,Isiahi,9.23,3,Pastor Aleman
+6,Matthus,22.52,7,Bulldog
+7,Dionysus,9.41,16,Boxer
+8,Opal,43.49,8,Husky
+9,Dolli,29.87,5,Boxer
+10,Marillin,24.89,13,Border Collie
+11,Neala,27.12,2,Rottweiler
+12,Margette,8.52,13,Dalmata
+13,Tressa,42.25,3,Bulldog
+14,Lek,35.79,11,Labrador Retriever
+15,Georgiana,38.3,19,Doberman
+16,Brook,18.53,3,Dalmata
+17,Rosalinda,24.9,19,Husky
+18,Bondon,27.93,16,Labrador Retriever
+19,Michele,18.66,17,Rottweiler
+20,Mozes,44.2,13,Husky
+21,Shaylah,17.19,14,Husky
+22,Read,39.41,16,Bulldog
+23,Valentijn,16.15,19,Border Collie
+24,Gal,38.89,11,Rottweiler
+25,Aurelie,33.15,7,Bulldog
+26,Tanner,10.49,14,Dalmata
+27,Griselda,11.15,14,Border Collie
+28,Kitty,33.2,13,San Bernardo
+29,Verine,42.64,18,San Bernardo
+30,Vincent,41.95,14,Dalmata
+31,Gavrielle,33.31,5,Beagle
+32,Torey,37.86,12,Rottweiler
+33,Anya,36.97,15,Boxer
+34,Giavani,46.59,16,Bloodhound
+35,Con,31.06,6,San Bernardo
+36,Winnie,14.78,11,Labrador Retriever
+37,Jacquenette,48.85,3,Dalmata
+38,Granville,42.24,1,Husky
+39,Burgess,30.84,7,Bloodhound
+40,Lurline,45.81,20,Doberman
+41,Christa,44.92,1,Husky
+42,Enrica,29.4,12,Husky
+43,Brooke,49.69,3,Dalmata
+44,Carmencita,12.85,17,Doberman
+45,Lorin,18.96,1,Galgo
+46,Deborah,8.39,11,Bloodhound
+47,Miltie,18.48,7,Beagle
+48,Ethel,37.38,4,Bulldog
+49,Sinclair,12.23,14,Labrador Retriever
+50,Chicky,16.96,10,Rottweiler
+51,Chelsey,7.81,1,Doberman
+52,Cissiee,5.64,16,Gran Danes
+53,Damita,20.92,8,Border Collie
+54,Morgun,28.45,18,Rottweiler
+55,Dunstan,38.5,7,Husky
+56,Fulton,11.55,11,Beagle
+57,Raychel,29.2,2,Dalmata
+58,Fair,7.2,16,San Bernardo
+59,Doroteya,25.94,3,Sharpei
+60,Gwendolyn,48.69,12,Border Collie
+61,Ondrea,14.92,8,Labrador Retriever
+62,Cletis,41.81,6,Bulldog
+63,Hildagarde,7.4,20,Beagle
+64,Woody,30.96,5,Doberman
+65,Bat,39.12,11,Gran Danes
+66,Portie,16.76,19,Galgo
+67,Charlene,40.92,17,Rottweiler
+68,Albertina,22.02,20,Galgo
+69,Ryann,41.32,19,Galgo
+70,Abbi,8.1,11,Dalmata
+71,Ellerey,38.03,13,San Bernardo
+72,Davidson,34.8,5,Galgo
+73,Moria,36.77,8,San Bernardo
+74,Jerrilee,29.54,9,Boxer
+75,Carola,37.94,12,San Bernardo
+76,Katusha,30.68,6,Border Collie
+77,Vernor,42.1,13,Boxer
+78,Jeffrey,20.93,16,Galgo
+79,Irita,32.75,19,Gran Danes
+80,Theressa,20.48,4,Sharpei
+81,Queenie,39.47,15,Doberman
+82,L;urette,7.85,2,Doberman
+83,Robinia,39.88,1,Doberman
+84,Archer,47.02,19,San Bernardo
+85,Allard,44.94,9,Bulldog
+86,Barbaraanne,45.08,2,Dalmata
+87,Alessandra,47.26,3,Bulldog
+88,Zitella,34.3,9,Pastor Aleman
+89,Gallard,43.66,9,Galgo
+90,Emlyn,24.19,11,San Bernardo
+91,Drud,37.7,1,Labrador Retriever
+92,Fabiano,11.26,14,Boxer
+93,Farly,24.53,18,Sharpei
+94,Samson,46.86,8,Sharpei
+95,Rollin,8,19,Galgo
+96,Christa,8.97,7,Dalmata
+97,Garwood,47.99,13,Labrador Retriever
+98,Barde,15.63,17,Boxer
+99,Elwin,39.42,2,Husky
+100,Frasquito,31.19,10,Labrador Retriever
+101,Max,42.79,9,Sharpei
+102,Bertina,11.99,3,Border Collie
+103,Zackariah,42.46,13,Bulldog
+104,Idaline,23.64,20,Galgo
+105,Diane,23.98,18,San Bernardo
+106,Donia,33.54,19,Sharpei
+107,Tessie,36.71,11,Doberman
+108,Base,32.34,14,Bulldog
+109,Beltran,45.98,20,Sharpei
+110,Arline,46.84,5,Doberman
+111,Cornela,27.16,1,Dalmata
+112,Lyle,33.95,10,Bulldog
+113,Shawnee,7,3,Bloodhound
+114,Nobie,40.74,12,Husky
+115,Ed,41.01,12,Galgo
+116,Derron,32.92,12,Boxer
+117,Conroy,16.09,14,Beagle
+118,Meredithe,23.9,9,Doberman
+119,Kissee,31.7,18,Sharpei
+120,Benni,27.16,12,San Bernardo
+121,Eartha,11.83,5,Beagle
+122,Hamilton,5.57,12,Bulldog
+123,Hesther,38.64,1,Border Collie
+124,Miguel,32.89,3,Boxer
+125,Peyter,40.8,18,Sharpei
+126,Viole,45.61,6,Border Collie
+127,Rici,27.18,6,Boxer
+128,Rance,23.16,6,Husky
+129,Clint,46.54,17,Bulldog
+130,Wilburt,18.84,18,Galgo
+131,Shelagh,30.35,1,Doberman
+132,Wye,5.53,11,Husky
+133,Kylynn,17.82,2,Doberman
+134,Franky,26.21,15,Boxer
+135,Estel,13.39,3,Beagle
+136,Cymbre,11.83,13,Beagle
+137,Bunny,47.93,6,Gran Danes
+138,Buddie,44.67,12,Boxer
+139,Charleen,37.76,11,Husky
+140,Christabel,46.63,16,Bulldog
+141,Candide,18.85,9,Doberman
+142,Sylvan,41.09,5,Boxer
+143,Ingar,33.47,4,Husky
+144,Angy,19.58,6,Husky
+145,Sigrid,5.78,11,Bulldog
+146,Rad,36.78,2,Rottweiler
+147,Mimi,48.45,18,Boxer
+148,Sallyanne,18.33,14,Husky
+149,Lauralee,47.07,9,Galgo
+150,Berte,26.65,15,Dalmata
+151,Lonnie,15.38,8,Doberman
+152,Ray,17.7,10,San Bernardo
+153,Joby,14.73,5,Sharpei
+154,Cassie,34.06,19,Border Collie
+155,Kyrstin,11.57,4,Bloodhound
+156,Jervis,11.13,20,Gran Danes
+157,Jakie,22.18,8,Beagle
+158,Liz,41.53,5,Boxer
+159,Byram,25.6,11,Doberman
+160,Brittney,31.36,14,Border Collie
+161,Mic,22.32,17,Labrador Retriever
+162,Odele,49.08,9,Sharpei
+163,Pansie,38.95,17,Rottweiler
+164,Glenden,25.63,4,San Bernardo
+165,Lorettalorna,9.38,17,Beagle
+166,Early,30.52,5,Sharpei
+167,Izak,43.39,3,Dalmata
+168,Kimmy,29.86,13,Rottweiler
+169,Talbert,25.83,16,Doberman
+170,Ethelbert,6.91,11,Husky
+171,Morganica,8.38,6,Bloodhound
+172,Lucilia,18.28,2,Bulldog
+173,Iona,11.3,1,Bulldog
+174,Scotty,5.48,17,Galgo
+175,Vannie,44.23,2,Doberman
+176,Albert,32.42,11,Border Collie
+177,Angel,25.18,11,Doberman
+178,Jermain,19.01,12,Dalmata
+179,Candy,19.94,14,Rottweiler
+180,Judi,31.54,14,Rottweiler
+181,Carin,37.73,7,Galgo
+182,Errick,10.84,1,Gran Danes
+183,Janifer,33.55,14,San Bernardo
+184,Clementina,23.64,5,Pastor Aleman
+185,Spense,11.33,12,San Bernardo
+186,Gordon,20.22,1,Bulldog
+187,Ginelle,13.32,7,San Bernardo
+188,Mallorie,24.96,19,San Bernardo
+189,Bing,18.53,6,Bloodhound
+190,Laverna,37.25,16,Bulldog
+191,Kevin,46.25,20,Pastor Aleman
+192,Amalie,27.94,8,Dalmata
+193,Nanny,19.88,1,San Bernardo
+194,Bettye,24.12,8,Bulldog
+195,Jacquie,17.26,3,Beagle
+196,Shawn,42.47,10,Beagle
+197,Hi,24.17,16,Border Collie
+198,Uriah,28.75,9,Pastor Aleman
+199,Cross,41.92,17,Gran Danes
+200,Joanne,7.38,7,Gran Danes
+201,Dory,16.49,11,Pastor Aleman
+202,Andrus,38.47,4,Bloodhound
+203,Quint,43.53,7,Beagle
+204,Janeta,11.85,13,Labrador Retriever
+205,Rennie,30.38,19,Husky
+206,Zena,15.67,19,Husky
+207,Ibrahim,27.13,12,Bloodhound
+208,Matilda,10.86,1,Labrador Retriever
+209,Cyrille,11.98,4,Gran Danes
+210,Gaby,6.42,11,San Bernardo
+211,Jonie,43.09,6,Sharpei
+212,Kath,6.33,12,Galgo
+213,Ethelin,18.11,7,Dalmata
+214,Kaylyn,46.66,16,Bulldog
+215,Nicola,29.87,10,Doberman
+216,Danielle,44.89,15,Dalmata
+217,Loretta,9.33,15,Bulldog
+218,Elsey,29.65,18,Border Collie
+219,Jerrome,30.97,11,Border Collie
+220,Chaddy,41.01,16,Beagle
+221,Joseito,47.94,5,Bloodhound
+222,Terrie,32.36,20,Sharpei
+223,Cherey,27.34,12,Husky
+224,Cindie,19.81,10,Doberman
+225,Davey,39.89,12,Border Collie
+226,Bartlett,31.96,12,Rottweiler
+227,Sonnnie,35.84,3,Beagle
+228,Silas,6.51,6,Border Collie
+229,Grantley,28.41,18,Gran Danes
+230,Kevina,45.64,3,Bloodhound
+231,Ambros,25.04,6,Border Collie
+232,Alicia,44.78,6,Pastor Aleman
+233,Vina,12.23,1,Husky
+234,Leilah,38.93,19,Beagle
+235,Bogey,29.12,6,Husky
+236,Huntington,49.39,12,Galgo
+237,Roanna,8.12,3,San Bernardo
+238,Katy,48.5,9,Pastor Aleman
+239,Editha,35.6,17,Border Collie
+240,Farrel,23.39,3,Boxer
+241,Jeffie,49.08,15,Doberman
+242,Arden,24.75,6,Husky
+243,Nealy,41.35,10,Border Collie
+244,Conan,49.88,6,Gran Danes
+245,Susanna,9.28,5,Boxer
+246,Lindy,13.09,13,Galgo
+247,Roger,17.9,10,Pastor Aleman
+248,Phil,5.14,15,Gran Danes
+249,Kristien,30.68,8,Bulldog
+250,Susannah,12.91,12,Labrador Retriever
+251,Gerrie,20.83,9,Husky
+252,Tanya,13.8,14,Boxer
+253,Staffard,27.23,2,Bloodhound
+254,Annamaria,49.27,7,Bulldog
+255,Ardella,36.36,8,Husky
+256,Cullin,43.64,11,Labrador Retriever
+257,Kim,12.71,9,San Bernardo
+258,Valina,13.14,7,Husky
+259,Ron,41.63,14,Beagle
+260,Kale,26.89,13,Galgo
+261,Berrie,31.54,19,Border Collie
+262,Griff,27.99,14,Galgo
+263,Finlay,49.15,7,Bulldog
+264,Denny,6.13,8,Husky
+265,Tracie,37.04,10,Bulldog
+266,Annadiana,31.46,19,San Bernardo
+267,Matthieu,47.16,14,Doberman
+268,Nonna,15.26,4,Labrador Retriever
+269,Amargo,48.11,2,Husky
+270,David,38.12,11,Dalmata
+271,Tan,14.28,9,Dalmata
+272,Leta,23.31,13,Boxer
+273,Roman,24.78,3,Husky
+274,Abram,31.01,1,Boxer
+275,Paxon,39.35,19,Husky
+276,Gaye,5.84,20,Boxer
+277,Ruby,32.88,7,Doberman
+278,Ilyssa,37.95,6,Doberman
+279,Winona,24.55,8,Bulldog
+280,Andreana,40.82,10,Rottweiler
+281,Koo,9.94,16,Doberman
+282,Devin,23.68,16,Gran Danes
+283,Alfons,31.72,2,Pastor Aleman
+284,Piotr,40.66,1,Dalmata
+285,Tedd,21.11,17,Dalmata
+286,Arlyne,14.05,14,Sharpei
+287,Wit,36.35,14,Doberman
+288,Merilyn,9.58,7,Boxer
+289,Elka,24.85,6,Boxer
+290,Rudyard,14.7,14,Bloodhound
+291,Andy,47.89,13,Husky
+292,Alexio,19.88,13,Bulldog
+293,Hymie,41.18,8,Doberman
+294,Jennilee,22.45,18,Gran Danes
+295,Moira,25.66,12,Dalmata
+296,Dallas,30.17,3,Rottweiler
+297,Essa,21.09,8,Gran Danes
+298,Gwenni,11.78,5,Sharpei
+299,Titus,20.25,10,Rottweiler
+300,Scottie,42.01,19,Doberman
+301,Jennica,36.99,12,Doberman
+302,Allene,6.14,19,Doberman
+303,Nalani,40.75,5,Galgo
+304,Carrie,21.81,14,Bloodhound
+305,Eartha,47.46,18,Gran Danes
+306,Waylon,23.4,3,Labrador Retriever
+307,Janaya,34.84,1,Dalmata
+308,Harp,10.8,1,Doberman
+309,Bil,44.81,20,Dalmata
+310,Zack,40.14,8,Galgo
+311,Fay,39.17,7,Gran Danes
+312,Emlyn,21.68,14,San Bernardo
+313,Gretta,29.38,9,Bulldog
+314,Dominick,43.68,10,Labrador Retriever
+315,Nollie,49.76,9,Bulldog
+316,Emlyn,37.5,18,Pastor Aleman
+317,Nola,14.77,3,Pastor Aleman
+318,Griswold,5.31,5,Sharpei
+319,Gina,27.58,11,San Bernardo
+320,Brnaby,22.13,11,Husky
+321,Germain,39,7,Labrador Retriever
+322,Marget,27.68,10,Pastor Aleman
+323,Cullin,18.58,6,Bulldog
+324,Lanni,22,16,Boxer
+325,Kathie,22.25,2,Doberman
+326,Emmy,24.68,14,Galgo
+327,Shirley,27.27,6,Beagle
+328,Gerick,25.05,9,Husky
+329,Rhona,44.73,19,Border Collie
+330,Gerhardine,49.48,9,Labrador Retriever
+331,Doreen,18.22,8,Beagle
+332,Zaria,47.09,11,Beagle
+333,Barris,28.19,4,Pastor Aleman
+334,Helen-elizabeth,24.04,17,Husky
+335,Caroljean,25.93,16,Gran Danes
+336,Jennine,33.9,5,Labrador Retriever
+337,Martyn,20.62,6,Labrador Retriever
+338,Heath,34.42,16,Bulldog
+339,Enrique,42.37,8,Doberman
+340,Morna,25.62,5,Gran Danes
+341,Lutero,39.42,14,Doberman
+342,Marian,19.57,5,Labrador Retriever
+343,Franzen,48.31,20,Boxer
+344,Wadsworth,24.47,12,Boxer
+345,Corey,22.08,1,Bloodhound
+346,Zsazsa,14.39,14,Galgo
+347,Nicol,37.44,11,Sharpei
+348,Calida,27.73,12,Bulldog
+349,Doro,35.85,8,San Bernardo
+350,Beauregard,43.63,12,Gran Danes
+351,Nana,20.73,10,Husky
+352,Catha,38.25,7,Rottweiler
+353,Rubia,42.17,13,Sharpei
+354,Annetta,39.06,17,Bulldog
+355,Phillie,33.71,11,Dalmata
+356,Reinaldos,14.39,9,Bulldog
+357,Natassia,46.24,8,Border Collie
+358,Luciano,24.5,4,Pastor Aleman
+359,Haydon,33.56,18,Gran Danes
+360,Niall,29.69,4,Gran Danes
+361,Viva,9.49,4,Labrador Retriever
+362,Patten,28.33,19,Dalmata
+363,Irene,22.85,20,Sharpei
+364,Renaldo,13.5,11,Bloodhound
+365,Ellette,9.66,15,Dalmata
+366,Bobby,18.99,12,Border Collie
+367,Dreddy,13.84,7,Doberman
+368,Sela,28.02,5,Gran Danes
+369,Pascal,33.81,8,Pastor Aleman
+370,Cary,22.86,19,Doberman
+371,Rufe,35.15,18,Bulldog
+372,Hansiain,15.76,3,Husky
+373,Dicky,36.72,12,Border Collie
+374,Shannon,18.43,12,Sharpei
+375,Kathi,14.56,20,Beagle
+376,Elka,36.48,1,Husky
+377,Ginelle,42.33,5,Doberman
+378,Damiano,47.96,18,Rottweiler
+379,Martina,44.97,20,Sharpei
+380,Celinka,31.88,16,Dalmata
+381,Sharona,31.76,10,Husky
+382,Jake,13.08,1,Bulldog
+383,Marshal,32.13,18,Galgo
+384,Neille,33.43,16,Gran Danes
+385,Brion,14.78,2,Labrador Retriever
+386,Carrol,15.69,11,Husky
+387,Margette,9.45,10,San Bernardo
+388,Slade,46.71,15,Labrador Retriever
+389,Cornelius,43.16,14,Galgo
+390,Leland,21.33,20,Rottweiler
+391,Dirk,21.64,13,Doberman
+392,Trixy,29.55,14,Rottweiler
+393,Filmore,14.26,13,Labrador Retriever
+394,Isa,40.29,16,Rottweiler
+395,Gaylord,17.9,17,Pastor Aleman
+396,Giralda,30.17,10,Sharpei
+397,Addy,26.63,2,Boxer
+398,Mireielle,25.31,5,Bulldog
+399,Filmore,46.92,16,Sharpei
+400,Bell,26.69,16,Labrador Retriever
+401,Evey,42.29,4,Gran Danes
+402,Tedda,43.63,16,Dalmata
+403,Saw,21.56,3,Labrador Retriever
+404,Freedman,20.15,1,Bulldog
+405,Minnie,25.33,7,Boxer
+406,Hammad,23.93,11,Gran Danes
+407,Briney,45.69,10,Rottweiler
+408,Mariska,41.01,16,Gran Danes
+409,Kele,38.25,5,Pastor Aleman
+410,Christiane,46.85,4,Dalmata
+411,Missy,49.56,11,Bulldog
+412,Emogene,6.66,6,Bloodhound
+413,Elora,39.01,19,Beagle
+414,Corry,41.8,20,Dalmata
+415,Collie,14.12,4,Boxer
+416,Nikos,47.27,7,Dalmata
+417,Ky,8.75,18,Bulldog
+418,Leigh,12.87,11,Dalmata
+419,Balduin,38.65,14,Border Collie
+420,Elisabet,6.08,10,Bloodhound
+421,Tasha,26.59,13,Gran Danes
+422,Yuri,37.39,19,Bulldog
+423,Evita,17.34,17,Husky
+424,Kellby,32.28,12,Husky
+425,Timothee,17.07,2,Sharpei
+426,Roch,44.92,17,Labrador Retriever
+427,Barrie,30.44,18,Border Collie
+428,Tommy,15.18,8,Doberman
+429,Elihu,45.78,20,Rottweiler
+430,Denis,5.39,4,Rottweiler
+431,Shara,28.7,4,Rottweiler
+432,Dalli,18.69,8,Labrador Retriever
+433,Vernen,37.66,7,San Bernardo
+434,Addi,11.59,6,Husky
+435,Aggie,15.15,17,Dalmata
+436,Ashlee,48.33,17,Boxer
+437,Ty,33.48,10,San Bernardo
+438,Ulysses,49.77,4,San Bernardo
+439,Barbabra,23.06,6,San Bernardo
+440,Maxy,21.48,18,Border Collie
+441,Brittan,35.26,11,Border Collie
+442,Harman,30.09,20,San Bernardo
+443,Ervin,37.36,17,Dalmata
+444,Doretta,14.7,12,Bulldog
+445,Anissa,32.39,5,Gran Danes
+446,Karna,47.95,7,Boxer
+447,Enrique,19.33,12,Dalmata
+448,Burlie,34.59,10,Beagle
+449,Eamon,43.68,16,Doberman
+450,Rees,49.01,12,Border Collie
+451,Haven,7.05,11,San Bernardo
+452,Jacintha,38.6,17,Doberman
+453,Torey,22.47,6,Bulldog
+454,Godiva,20.24,5,San Bernardo
+455,Leonard,28.22,3,Border Collie
+456,Rozalie,48.73,3,Bloodhound
+457,Katee,22.08,2,Husky
+458,Goraud,17.7,2,Dalmata
+459,Lucias,20.26,13,Pastor Aleman
+460,Hinda,42.69,5,Sharpei
+461,Fredek,24.63,7,Beagle
+462,Jannel,14.65,3,Pastor Aleman
+463,Magnum,30.07,7,Dalmata
+464,Kim,43.09,12,Boxer
+465,Dew,48.37,15,San Bernardo
+466,Johnathan,44.07,8,Beagle
+467,Gwendolen,22.21,4,Labrador Retriever
+468,Boonie,36.21,2,San Bernardo
+469,Edwina,29.27,14,Galgo
+470,Belva,16.33,20,San Bernardo
+471,Gene,21.59,9,Bloodhound
+472,Brigit,27.77,16,Galgo
+473,Julee,36.22,9,Boxer
+474,Alastair,21.52,4,Labrador Retriever
+475,Pearl,47.86,9,Bloodhound
+476,Lizabeth,5.7,5,San Bernardo
+477,Stephana,28.81,15,Beagle
+478,Hyatt,42.71,12,Galgo
+479,Ginger,17.4,18,San Bernardo
+480,Brooks,37.25,14,San Bernardo
+481,Stafani,5.47,7,San Bernardo
+482,Charlean,40.86,2,Bulldog
+483,Dinah,26.26,4,Border Collie
+484,Quinton,9.1,9,Galgo
+485,Haydon,11.74,16,Gran Danes
+486,Arlina,49.78,2,Doberman
+487,Bernadette,33.96,2,Sharpei
+488,Malvin,6.55,7,Bulldog
+489,Heather,38.74,15,Bloodhound
+490,Karol,6.81,4,Beagle
+491,Leela,47.8,7,Beagle
+492,Ellene,19.19,1,Labrador Retriever
+493,Mendie,40.67,5,Doberman
+494,Kip,44.46,4,Husky
+495,Giorgio,49.44,8,Beagle
+496,Carolyne,17.8,10,Boxer
+497,Anthia,46.89,12,Dalmata
+498,Mara,30.83,20,San Bernardo
+499,Marji,15.42,3,Bulldog
+500,Siobhan,48.86,17,Bulldog
+501,Abagail,26.06,13,Husky
+502,Ferd,19.71,11,Beagle
+503,Harper,48.42,5,Beagle
+504,Jeannie,12.18,1,Labrador Retriever
+505,Fernande,34.49,14,San Bernardo
+506,Cordula,36.04,17,Border Collie
+507,Cecilius,35.73,13,Dalmata
+508,Bevin,5.39,7,Husky
+509,Roy,11.81,12,Sharpei
+510,Vonni,29.1,6,Galgo
+511,Casi,21.47,2,Labrador Retriever
+512,Marinna,6.64,17,Bulldog
+513,Aldric,32.12,7,Galgo
+514,Ximenes,27.24,6,Sharpei
+515,Ethan,27.57,10,Labrador Retriever
+516,Gusta,15.32,6,Boxer
+517,Arlee,34.87,11,Doberman
+518,Des,34.02,10,Labrador Retriever
+519,Coop,32.38,15,Rottweiler
+520,Esmeralda,10.7,20,Rottweiler
+521,Marta,36.37,1,Doberman
+522,Bonnee,15.9,3,Sharpei
+523,Robinette,7.24,9,Husky
+524,Hermione,13.1,1,Border Collie
+525,Willi,14.3,20,Doberman
+526,Stewart,43.47,2,Labrador Retriever
+527,Nat,23.71,2,Bloodhound
+528,Bail,41.62,8,Galgo
+529,Christel,25.22,13,Pastor Aleman
+530,Goldy,19.6,10,Beagle
+531,Noll,43.14,14,Doberman
+532,Marie-ann,48.91,1,Sharpei
+533,Abe,33.34,8,Bloodhound
+534,Peirce,31.97,14,Galgo
+535,Dilly,43.42,1,Dalmata
+536,Jonathon,45.88,11,Rottweiler
+537,Jameson,11.65,18,Beagle
+538,Sal,47.63,12,Boxer
+539,Vivia,13.56,4,Bloodhound
+540,Ethelda,48.87,18,Boxer
+541,Roxanna,40.18,13,Husky
+542,Hal,22.46,10,Gran Danes
+543,Terza,15.36,4,Sharpei
+544,Matthias,20.19,13,Bulldog
+545,Sholom,30.41,16,Dalmata
+546,Jourdan,29.26,18,Border Collie
+547,Tate,41.55,19,Doberman
+548,Grace,38.2,10,Labrador Retriever
+549,Roland,26.51,7,Pastor Aleman
+550,Lisha,12.11,19,Doberman
+551,Athena,13.64,15,Sharpei
+552,Geoffrey,9.03,12,Gran Danes
+553,Tomi,32.32,17,Bulldog
+554,Chiquita,36.41,13,Galgo
+555,Colette,40.84,9,Galgo
+556,Barbee,6.4,7,Pastor Aleman
+557,Lanny,47.06,7,Border Collie
+558,Torrence,38.6,3,Galgo
+559,Rhodia,35.55,9,Gran Danes
+560,Opaline,20.53,6,Sharpei
+561,Harlie,35.48,20,Pastor Aleman
+562,Katrine,24.16,15,Dalmata
+563,Fernanda,33.39,16,Rottweiler
+564,Tracee,45.47,13,Border Collie
+565,Vinny,16.5,9,Beagle
+566,Odey,35.63,15,Boxer
+567,Kaia,37.3,5,Husky
+568,Fidelio,39.7,4,Beagle
+569,Donnie,14.91,5,Husky
+570,Rosamond,14.71,5,Border Collie
+571,Greggory,38.75,11,Sharpei
+572,Carri,29.2,3,Gran Danes
+573,Augy,15.94,5,San Bernardo
+574,Reinhard,16.43,17,Beagle
+575,Symon,22.48,10,Beagle
+576,Suzann,27.74,13,Boxer
+577,Urbano,8.6,4,Galgo
+578,Loretta,30.55,11,San Bernardo
+579,Letti,39.97,2,Border Collie
+580,Sebastian,11.77,1,Rottweiler
+581,Jaymee,35.08,18,Boxer
+582,Nichole,16.62,7,Husky
+583,Sheffie,7.68,15,Rottweiler
+584,Mason,39.34,16,Boxer
+585,Ulysses,30.2,19,Husky
+586,Rufus,47.81,6,Boxer
+587,Thatch,18.79,20,Pastor Aleman
+588,Keven,9.64,18,Doberman
+589,Vale,36.92,16,Galgo
+590,Abdul,21.51,7,Pastor Aleman
+591,Reta,10.55,20,Dalmata
+592,Pascale,29.42,7,San Bernardo
+593,Adina,47.29,16,Doberman
+594,Sean,33.9,17,Rottweiler
+595,Katha,28.19,17,Galgo
+596,Gothart,17.77,14,Beagle
+597,Janela,41.91,2,Beagle
+598,Beltran,27.83,19,Sharpei
+599,Winny,25.49,16,Galgo
+600,Claudell,8.84,2,Border Collie
+601,Gilberte,24.37,8,Doberman
+602,Abbi,26.81,20,Bulldog
+603,Georgine,28.2,17,Rottweiler
+604,Katlin,16.85,6,Dalmata
+605,Tedda,31.06,9,Bloodhound
+606,Rand,27.73,13,Border Collie
+607,Jarid,18.51,19,Doberman
+608,Silva,17.89,13,Doberman
+609,Wood,45,15,Pastor Aleman
+610,Liv,36.41,4,Galgo
+611,Dolph,40.12,16,Dalmata
+612,Fabio,41.52,9,Dalmata
+613,Roarke,20.29,19,Labrador Retriever
+614,Maddi,10.85,16,Rottweiler
+615,Rafi,23.84,4,Husky
+616,Danyelle,5.46,16,San Bernardo
+617,Jermaine,23.19,9,Labrador Retriever
+618,Nolie,8.84,19,Boxer
+619,Morena,22.75,1,Gran Danes
+620,Ezequiel,39.65,3,San Bernardo
+621,Corny,30.55,6,Husky
+622,Morrie,19.89,11,Gran Danes
+623,Tim,40.67,11,Labrador Retriever
+624,Baudoin,32.13,17,Husky
+625,Korey,18.23,18,Labrador Retriever
+626,Valaria,29.76,18,Dalmata
+627,Wynne,38.02,11,Gran Danes
+628,Homerus,33.87,16,Galgo
+629,Flo,14.55,5,Bloodhound
+630,Donny,38.6,15,Pastor Aleman
+631,Meier,32.06,10,Pastor Aleman
+632,Jedidiah,6.48,3,Husky
+633,Gui,31.32,19,Doberman
+634,Caitlin,6.26,10,Rottweiler
+635,Davidde,38.21,18,Gran Danes
+636,Clem,25.73,15,Sharpei
+637,Bessie,30.44,8,Pastor Aleman
+638,Rennie,23.28,10,Pastor Aleman
+639,Hanny,47.96,14,Dalmata
+640,Chicky,47.07,15,San Bernardo
+641,Hall,36.77,11,Dalmata
+642,Annamaria,7.4,9,Husky
+643,Sharai,7.13,10,Bulldog
+644,Jobie,7.19,2,Pastor Aleman
+645,Miller,38.12,4,Bulldog
+646,Shelley,23.83,17,Sharpei
+647,Christopher,25.2,14,Dalmata
+648,Ross,42.99,18,Pastor Aleman
+649,Laurent,12.06,18,Doberman
+650,Javier,18.91,13,Beagle
+651,Libby,31.35,14,Bulldog
+652,Jeniece,32.14,13,Border Collie
+653,Salomone,9.5,10,Beagle
+654,Linnet,26.15,18,Rottweiler
+655,Moria,13.03,13,Dalmata
+656,Carol,23.44,10,Sharpei
+657,Martie,41.99,1,Border Collie
+658,Dania,17.96,17,Labrador Retriever
+659,Wait,12.02,6,San Bernardo
+660,Lydia,36.84,5,Husky
+661,Loralee,26.94,13,Dalmata
+662,Marabel,19.17,19,Rottweiler
+663,Elvin,32.28,15,Galgo
+664,Nissie,14.08,14,San Bernardo
+665,Berton,15.36,17,Doberman
+666,Lamar,38.43,2,Sharpei
+667,Kory,45.41,2,Galgo
+668,Lishe,48.95,6,Rottweiler
+669,Andre,15.7,11,San Bernardo
+670,Charity,45.41,20,Galgo
+671,Wenda,36.44,6,Pastor Aleman
+672,Fairleigh,34.47,18,Boxer
+673,Willy,47.61,8,Rottweiler
+674,Khalil,31.01,18,Boxer
+675,Rockie,29.98,5,Pastor Aleman
+676,Cordi,29.73,12,Beagle
+677,Lionello,29.25,16,Bulldog
+678,Regan,7.5,16,Bloodhound
+679,Mady,9.26,13,Pastor Aleman
+680,Beulah,44.24,20,Boxer
+681,Rosene,41.35,15,Boxer
+682,Lanny,42.29,5,Labrador Retriever
+683,Lyndsay,36.79,11,Gran Danes
+684,Bunny,10.95,6,Dalmata
+685,Tabitha,22.49,5,Bloodhound
+686,Nata,22.51,20,Doberman
+687,Othello,37.02,10,Labrador Retriever
+688,Margy,26.16,18,Galgo
+689,Nathalia,37.3,4,Bulldog
+690,Shane,21.68,8,Galgo
+691,Karalee,11.73,10,Doberman
+692,Mal,38.64,10,Bloodhound
+693,Flori,14.59,8,San Bernardo
+694,Rosy,8.23,10,Doberman
+695,Benedetto,16.11,14,Bloodhound
+696,Kym,16.13,13,Dalmata
+697,Ferd,33.52,13,Dalmata
+698,Caralie,27.9,2,Labrador Retriever
+699,Hodge,15.92,5,Bloodhound
+700,Brigg,33.03,17,Bloodhound
+701,Abbe,29.88,3,San Bernardo
+702,Valina,26.66,11,Doberman
+703,Nicky,13.88,20,Galgo
+704,Zuzana,45.13,7,Sharpei
+705,Cheri,44.34,6,Boxer
+706,Malvin,28.97,4,Border Collie
+707,Martino,27.7,6,Beagle
+708,Elinore,46.57,1,Sharpei
+709,Randie,14.93,7,Sharpei
+710,Vida,26.03,16,Pastor Aleman
+711,Aubrie,38.5,20,Pastor Aleman
+712,Darsey,48.06,5,Rottweiler
+713,Garnette,17.32,6,Bloodhound
+714,Stearn,13.28,14,Galgo
+715,Yves,44.06,1,Rottweiler
+716,Annette,49.5,17,Gran Danes
+717,Lacee,7.12,8,Galgo
+718,Margette,20.96,10,Husky
+719,Julius,28.51,17,Bulldog
+720,Justis,11.71,1,Galgo
+721,Lucien,11.64,18,Rottweiler
+722,Marjory,7.93,9,Gran Danes
+723,Janela,26.87,19,Labrador Retriever
+724,Farley,27.39,10,Sharpei
+725,Killian,37.62,15,Doberman
+726,Denise,20.33,6,Bulldog
+727,Karl,8.56,4,Rottweiler
+728,Alleen,46.98,6,Gran Danes
+729,Gregoire,41.84,15,Rottweiler
+730,Hermann,27.57,20,Dalmata
+731,Elfrieda,49.9,10,Gran Danes
+732,Connie,47.66,11,Husky
+733,Dari,26.3,10,Pastor Aleman
+734,Cordi,45.85,12,Gran Danes
+735,Sunshine,45.51,15,Labrador Retriever
+736,Max,27.36,10,Boxer
+737,Gaby,20.46,14,Dalmata
+738,Chaunce,38.76,1,Doberman
+739,Rosalyn,11.94,10,Boxer
+740,Marylynne,30.4,9,Pastor Aleman
+741,Jazmin,27.02,5,Border Collie
+742,Ches,30.86,10,Sharpei
+743,Mischa,26.1,19,Border Collie
+744,Josee,46.32,14,San Bernardo
+745,Kenon,40.17,2,Beagle
+746,Hadria,47.9,8,San Bernardo
+747,Athena,6.92,10,Rottweiler
+748,Thibaud,20.83,1,San Bernardo
+749,Steven,46.83,16,Gran Danes
+750,Colleen,32.33,14,Beagle
+751,Karol,14.05,6,Galgo
+752,Bellina,45.41,13,Sharpei
+753,Darbee,46.68,19,Gran Danes
+754,Trudey,48.78,7,Border Collie
+755,Ferdinand,25.93,14,Doberman
+756,Jesselyn,9.42,12,Labrador Retriever
+757,Gris,45.32,18,Border Collie
+758,Foster,17.25,8,Husky
+759,Shelley,6.84,4,Gran Danes
+760,Terrel,28.16,18,Galgo
+761,Barnett,20.25,1,Labrador Retriever
+762,Dorolisa,12.28,10,Boxer
+763,Agnes,45.4,1,Dalmata
+764,Madelle,27.23,4,Dalmata
+765,Roderigo,9.37,16,Husky
+766,Inessa,44.05,10,Husky
+767,Reba,13.77,4,Beagle
+768,Nora,29.09,13,Rottweiler
+769,Hart,11.12,13,Beagle
+770,Desmond,33.6,16,Husky
+771,Lamont,19.74,13,Doberman
+772,Powell,28.43,13,Rottweiler
+773,Kermy,10.61,12,Boxer
+774,Joceline,6.8,19,Boxer
+775,Cull,39.5,7,Boxer
+776,Celine,8.66,18,Sharpei
+777,Bentley,37.24,4,Sharpei
+778,Emilia,18.7,13,Beagle
+779,Alma,34.21,19,Gran Danes
+780,Dede,6.43,13,San Bernardo
+781,Tasia,45.91,10,Bloodhound
+782,Blakeley,33.05,20,Galgo
+783,Jarad,46.15,19,Bulldog
+784,Amelia,14.18,14,Dalmata
+785,Ike,31.4,14,Sharpei
+786,Giff,31.4,19,Bloodhound
+787,Judi,28.91,7,Rottweiler
+788,Janot,20.6,11,Bulldog
+789,Olympie,7.68,4,Border Collie
+790,Gennie,20.55,3,Galgo
+791,Charlot,26.07,5,Dalmata
+792,Toma,35.6,9,Pastor Aleman
+793,Evangelin,40.91,19,Gran Danes
+794,Tallie,14.28,4,San Bernardo
+795,Merry,37.43,3,Beagle
+796,Winnie,20.24,18,Sharpei
+797,Donnajean,48.96,4,Border Collie
+798,Sula,41.57,6,Sharpei
+799,Zed,37.59,7,San Bernardo
+800,Darin,15.34,15,Galgo
+801,Erhart,42.65,16,Sharpei
+802,Missie,13.49,1,Rottweiler
+803,Rice,41.56,8,Sharpei
+804,Emelita,18.55,15,Husky
+805,Bruno,9.13,16,Pastor Aleman
+806,Gisele,11.66,13,Labrador Retriever
+807,Gottfried,31.27,9,Rottweiler
+808,Joana,13.72,16,Boxer
+809,Malinda,15.79,15,Bulldog
+810,Hettie,36.01,9,Bloodhound
+811,Sonny,42.12,10,Beagle
+812,Paxon,6.48,3,Beagle
+813,Lief,8.32,8,Husky
+814,Magdalen,8.82,2,Bloodhound
+815,Herman,10.01,3,Husky
+816,Sammy,49.75,8,Doberman
+817,Rana,48.8,1,San Bernardo
+818,Hali,19.77,4,Labrador Retriever
+819,Quintina,11.47,11,Boxer
+820,Muriel,6.57,18,Labrador Retriever
+821,Fionnula,34.84,7,Dalmata
+822,Earvin,28.66,4,Galgo
+823,Morna,44.62,5,Beagle
+824,Elden,22.64,3,Sharpei
+825,Bee,29.22,14,Dalmata
+826,Tybie,25.61,10,Dalmata
+827,Sile,30.42,3,Bloodhound
+828,Calli,18.66,11,Dalmata
+829,Tamiko,11.65,15,Husky
+830,Harry,49.42,7,Pastor Aleman
+831,Halsy,30.99,6,Rottweiler
+832,Aldis,13.7,5,Galgo
+833,Vittorio,45.25,5,Doberman
+834,Reade,29.34,13,Galgo
+835,Armando,8.47,10,Sharpei
+836,Cesar,16.09,16,Dalmata
+837,Don,36.32,2,Galgo
+838,Ashla,48.1,11,Sharpei
+839,Duffy,33.93,16,Galgo
+840,Chelsae,19.17,1,Bloodhound
+841,Evangeline,8.99,12,Sharpei
+842,Tabbie,40.56,18,Beagle
+843,Henryetta,6.28,3,Doberman
+844,Dore,11.27,13,Sharpei
+845,Gretna,5.62,11,San Bernardo
+846,Carney,43.12,13,Galgo
+847,Fulton,21.54,20,Sharpei
+848,Johnathon,40.34,9,Gran Danes
+849,Todd,29.64,16,Labrador Retriever
+850,Tobye,40.23,13,Galgo
+851,Eimile,24.37,14,Bloodhound
+852,Barde,18.3,14,Galgo
+853,Gallard,10.81,10,Sharpei
+854,Percy,34.87,2,Doberman
+855,Brig,32.7,5,San Bernardo
+856,Kai,19.37,15,Husky
+857,Lucie,40.2,12,Dalmata
+858,Adina,7.06,14,Galgo
+859,Tomasina,13.15,16,Sharpei
+860,Clyve,8.68,5,Border Collie
+861,Alanson,49.38,16,Pastor Aleman
+862,Ken,7.45,5,Sharpei
+863,Dunc,32.72,16,Galgo
+864,Bart,10.95,2,Rottweiler
+865,Kathye,27.13,6,Galgo
+866,Stafford,10.46,11,Gran Danes
+867,Mechelle,17.12,13,Bloodhound
+868,Kathlin,33.78,16,Doberman
+869,Patrica,39.89,11,Dalmata
+870,Gaelan,31.08,18,Border Collie
+871,Odelia,25.73,15,San Bernardo
+872,Hebert,15.12,13,Bulldog
+873,Teri,17.6,20,Galgo
+874,Dorothy,38.5,12,Galgo
+875,Nissy,45.22,18,San Bernardo
+876,Jack,19.88,7,Bloodhound
+877,Talbert,46.46,11,Beagle
+878,Beauregard,49.31,3,Doberman
+879,Carolyn,19.86,4,Pastor Aleman
+880,Karine,34.83,10,Bulldog
+881,Bendite,40.78,13,Galgo
+882,Corina,24.88,17,Boxer
+883,Zsa zsa,39.77,1,Husky
+884,Pammie,37.83,7,Galgo
+885,Margarette,45.25,11,Border Collie
+886,Tammy,14.16,12,Rottweiler
+887,Harper,26.58,20,Bloodhound
+888,Mead,32.44,19,Gran Danes
+889,Morna,32.15,17,Bloodhound
+890,Mikaela,35.63,5,Border Collie
+891,Catlee,8.44,11,Pastor Aleman
+892,Lenci,25.59,13,Border Collie
+893,Hyacinthie,5.73,14,Beagle
+894,Broderic,11.95,15,San Bernardo
+895,Hatti,18.97,5,Rottweiler
+896,Adriana,48.53,17,Husky
+897,Chelsie,27.89,5,Bulldog
+898,Royce,14.86,17,Border Collie
+899,Adriana,36.3,2,Bloodhound
+900,Natty,7.63,11,Border Collie
+901,Barbara-anne,9.25,16,Beagle
+902,Ilaire,46.25,3,Labrador Retriever
+903,Hill,19.67,14,Doberman
+904,Renate,16.57,12,Boxer
+905,Conni,36.71,8,Sharpei
+906,Annadiane,20.03,3,Dalmata
+907,Lydia,35.55,11,Bloodhound
+908,Byram,48.26,13,Bloodhound
+909,Nicolai,6.95,2,San Bernardo
+910,Susan,20.16,10,Beagle
+911,Corrianne,31.13,13,Galgo
+912,Susanetta,28.07,5,Husky
+913,Randell,41.15,17,Border Collie
+914,Vally,26.03,5,Bulldog
+915,Joelle,26.03,16,Bulldog
+916,Colly,35.49,11,Rottweiler
+917,Dennison,44.68,20,Doberman
+918,Clemmie,12.59,2,Bulldog
+919,Moises,40.95,3,Beagle
+920,Ulises,13.87,19,Husky
+921,My,14.3,19,Border Collie
+922,Caroline,40.37,12,Rottweiler
+923,Gabriela,7.6,15,Husky
+924,Barris,48.2,7,Bloodhound
+925,Fara,20.37,9,Border Collie
+926,Emelita,12.47,18,Bulldog
+927,Jeniffer,18.34,16,Beagle
+928,Julita,20,7,Boxer
+929,Lynde,27.01,15,Beagle
+930,Casey,30.32,9,Gran Danes
+931,Rhea,33.12,7,Pastor Aleman
+932,Burch,17.41,17,Border Collie
+933,Ermentrude,45.29,12,Pastor Aleman
+934,Kassandra,28.79,11,Galgo
+935,Gerhardine,34.26,2,Gran Danes
+936,Petronilla,33.22,20,Beagle
+937,Spense,31.84,15,Bloodhound
+938,Hort,43.24,5,Labrador Retriever
+939,Binnie,35.44,7,Beagle
+940,Hermy,19.81,13,Rottweiler
+941,Theadora,44.61,18,Sharpei
+942,Ronnie,15.57,11,Border Collie
+943,Wilow,40.6,9,Pastor Aleman
+944,Lorena,43.97,12,Border Collie
+945,Roxy,38.21,14,Labrador Retriever
+946,Wandis,18.18,17,Bulldog
+947,Bevan,22,11,San Bernardo
+948,Erminie,36.51,20,San Bernardo
+949,Illa,34.8,6,Boxer
+950,Pattie,16.56,11,Bloodhound
+951,Mendel,40.73,2,Bloodhound
+952,Faydra,31.87,15,Bulldog
+953,Nefen,33.62,9,Pastor Aleman
+954,Nanice,49.24,8,Bloodhound
+955,Adelina,30.34,3,Bloodhound
+956,Adrienne,28.52,16,Labrador Retriever
+957,Lilith,30.39,10,Pastor Aleman
+958,Stormy,6.91,11,Husky
+959,Laney,18.05,15,Husky
+960,Brande,46.8,9,Beagle
+961,Horatia,15.66,7,Pastor Aleman
+962,Greer,6.59,13,Boxer
+963,Antony,14.53,1,Bulldog
+964,Dre,24.92,3,Rottweiler
+965,Tadeas,16.5,1,Bloodhound
+966,Tally,13.29,2,Sharpei
+967,Perl,12.96,16,Husky
+968,Delphine,7.8,5,Galgo
+969,Abbe,46.9,7,Gran Danes
+970,Cobby,18.15,18,Galgo
+971,Levin,43.36,1,Boxer
+972,Cecil,35.73,8,San Bernardo
+973,Fair,13.1,15,Dalmata
+974,Brion,24.12,17,Rottweiler
+975,Lynnet,25.58,14,Bulldog
+976,Tedmund,18.51,3,Bulldog
+977,Maximilianus,40.61,13,Boxer
+978,Anet,41.48,7,San Bernardo
+979,Benjie,34.33,9,Bloodhound
+980,Goddard,14.87,8,Doberman
+981,Seward,14.34,10,Sharpei
+982,Dan,18.43,6,Bloodhound
+983,Duke,7,3,San Bernardo
+984,Jami,14.8,14,Bulldog
+985,Craggie,9.37,20,Border Collie
+986,Reggie,13.14,12,Border Collie
+987,Any,30.59,9,Bulldog
+988,Tasha,49.29,15,Beagle
+989,Sarena,23.35,6,Dalmata
+990,Gardener,9.1,19,Bloodhound
+991,Waylon,31.24,4,Dalmata
+992,Antonia,40.58,6,Boxer
+993,Biron,31.1,2,Labrador Retriever
+994,Ludvig,44.5,14,Beagle
+995,Cristi,15.58,16,San Bernardo
+996,Hans,39.3,9,San Bernardo
+997,Arron,34.45,16,Galgo
+998,Edithe,22.01,3,Border Collie
+999,Orson,16.39,10,Doberman
+1000,Riccardo,45.85,16,Galgo
