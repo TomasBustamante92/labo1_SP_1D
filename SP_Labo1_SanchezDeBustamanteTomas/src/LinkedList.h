@@ -35,7 +35,7 @@ struct LinkedList
 // ---- SACARR // COMENTARR ---- //
 
 LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*));
-LinkedList* ll_map(LinkedList* this, void*(*pFunc)(void*));
+int ll_map(LinkedList* this, int(*pFunc)(void*));
 
 
 //Publicas

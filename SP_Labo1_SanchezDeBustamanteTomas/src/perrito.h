@@ -20,14 +20,20 @@ typedef struct
     float peso;
     int edad;
     char raza[21];
+    float cantidadComidaRacion;
 
 }ePerrito;
 
 
 // ---- COMENTAAAAR ---- //
 
-int perrito_setPeso(ePerrito* this,int peso);
-int perrito_getPeso(ePerrito* this,int* peso);
+void perrito_printPerritoConComida(ePerrito perrito);
+void perrito_printTopMenuConComida(void);
+int perrito_getCantidadComidaRacion(ePerrito* this,float* cantidadComidaRacion);
+int perrito_setCantidadComidaRacion(ePerrito* this,float cantidadComidaRacion);
+int ePerrito_laQueMapea(void*);
+int perrito_setPeso(ePerrito* this,float peso);
+int perrito_getPeso(ePerrito* this,float* peso);
 void perrito_printPerrito(ePerrito perrito);
 void perrito_printTopMenu(void);
 ePerrito* perrito_newParametros(char* idStr,char* nombreStr, char* pesoStr, char* edadStr, char* razaStr);

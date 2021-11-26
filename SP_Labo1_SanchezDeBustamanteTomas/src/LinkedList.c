@@ -36,28 +36,22 @@ LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
 	return newList;
 }
 
-LinkedList* ll_map(LinkedList* this, void*(*pFunc)(void*))
+int ll_map(LinkedList* this, int(*pFunc)(void*))
 {
-    LinkedList* newList = NULL;
+	int retorno = -1;
 	void* element;
 	int i;
 	int len = ll_len(this);
 
 	if(this != NULL && pFunc != NULL && len > -1)
 	{
-		newList = ll_newLinkedList();
-
-		if(newList != NULL)
+		for(i=0 ; i<len ; i++)
 		{
-			for(i=0 ; i<len ; i++)
-			{
-				element = ll_get(this, i);
-				element = pFunc(element);
-				ll_add(newList, element);
-			}
+			element = ll_get(this, i);
+			retorno = pFunc(element);
 		}
 	}
-	return newList;
+	return retorno;
 }
 
 /** \brief Crea un nuevo LinkedList en memoria de manera dinamica

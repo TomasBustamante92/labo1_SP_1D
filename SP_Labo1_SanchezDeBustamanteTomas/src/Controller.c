@@ -245,7 +245,7 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
 }
 */
 
-int controller_ListPerritos(LinkedList* pArrayListPerritos)
+int controller_ListPerritos(LinkedList* pArrayListPerritos, int opcion)
 {
 	int retorno = 0;
 	int len = ll_len(pArrayListPerritos);
@@ -254,12 +254,27 @@ int controller_ListPerritos(LinkedList* pArrayListPerritos)
 
 	if(pArrayListPerritos != NULL && len > 0)
 	{
-		perrito_printTopMenu();
+		if(opcion == 1)
+		{
+			perrito_printTopMenu();
+		}
+		else if(opcion == 2)
+		{
+			perrito_printTopMenuConComida();
+		}
 
 		for(i=0 ; i<len ; i++)
 		{
 			pPerrito = (ePerrito*) ll_get(pArrayListPerritos, i);
-			perrito_printPerrito(*pPerrito);
+
+			if(opcion == 1)
+			{
+				perrito_printPerrito(*pPerrito);
+			}
+			else if(opcion == 2)
+			{
+				perrito_printPerritoConComida(*pPerrito);
+			}
 		}
 		retorno = 1;
 	}

@@ -27,8 +27,8 @@ int main()
     do{
     	input_getNumero(&option, 	"1. Cargar lista \n"
     								"2. Listar perritos \n"
-    								"3.  \n"
-    								"4.  \n"
+    								"3. Calcular cantidad de comida \n"
+    								"4. Listar perritos con raciones \n"
     								"5.  \n"
     								"6.  \n"
     								"7. Ordenar empleados \n"
@@ -67,9 +67,39 @@ int main()
             	}
 
             	break;
+
             case 2:
             	controller_sortPerritos(listaPerritos);
-				if(controller_ListPerritos(listaPerritos))
+				if(controller_ListPerritos(listaPerritos,1))
+				{
+					input_systemPause();
+				}
+				else
+				{
+					input_limpiarPantalla();
+					printf("No hay perritos cagados! \n");
+					input_systemPause();
+				}
+            	break;
+
+            case 3:
+            	if(ll_map(listaPerritos, ePerrito_laQueMapea) != -1)
+            	{
+            		input_limpiarPantalla();
+            		printf("Elemento agregado con exito! \n");
+            		input_systemPause();
+            	}
+				else
+				{
+					input_limpiarPantalla();
+					printf("Ups! \n");
+					input_systemPause();
+				}
+
+            	break;
+
+            case 4:
+				if(controller_ListPerritos(listaPerritos,2))
 				{
 					input_systemPause();
 				}

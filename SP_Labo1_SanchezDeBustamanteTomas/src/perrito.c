@@ -7,6 +7,21 @@
 
 #include "perrito.h"
 
+int ePerrito_laQueMapea(void* pElement)
+{
+	int retorno = -1;
+	ePerrito* pPerrito = (ePerrito*)pElement;
+	float peso;
+
+	if(pElement != NULL)
+	{
+		perrito_getPeso(pPerrito, &peso);
+		perrito_setCantidadComidaRacion(pPerrito, peso*23);
+		retorno = 0;
+	}
+	return retorno;
+}
+
 int perrito_filtrarPerritos(void* pElement)
 {
 	int retorno = -1;
@@ -120,11 +135,23 @@ void perrito_printPerrito(ePerrito perrito)
 	printf("%-6d %-20s %-10.2f %-10d %-20s \n", perrito.id, perrito.nombre, perrito.peso, perrito.edad, perrito.raza);
 }
 
+void perrito_printTopMenuConComida(void)
+{
+	input_limpiarPantalla();
+	printf("%-6s %-20s %-10s %-10s %-10s %-20s\n"
+			"--------------------------------------------------------- \n","ID", "Nombre", "peso", "Edad", "Comida", "Raza");
+}
+
+void perrito_printPerritoConComida(ePerrito perrito)
+{
+	printf("%-6d %-20s %-10.2f %-10d %-10.2f %-20s \n", perrito.id, perrito.nombre, perrito.peso, perrito.edad, perrito.cantidadComidaRacion, perrito.raza);
+}
+
 ePerrito* perrito_newParametros(char* idStr,char* nombreStr, char* pesoStr, char* edadStr, char* razaStr)
 {
 	ePerrito* perritoAux = NULL;
 	int id;
-	int peso;
+	float peso;
 	int edad;
 
 	if(idStr != NULL && nombreStr != NULL && pesoStr != NULL && edadStr != NULL && razaStr != NULL)
@@ -186,7 +213,7 @@ int perrito_getId(ePerrito* this,int* id)
 	return retorno;
 }
 
-int perrito_setPeso(ePerrito* this,int peso)
+int perrito_setPeso(ePerrito* this,float peso)
 {
 	int retorno = -1;
 
@@ -198,7 +225,7 @@ int perrito_setPeso(ePerrito* this,int peso)
 	return retorno;
 }
 
-int perrito_getPeso(ePerrito* this,int* peso)
+int perrito_getPeso(ePerrito* this,float* peso)
 {
 	int retorno = -1;
 
@@ -285,7 +312,29 @@ int perrito_getRaza(ePerrito* this,char* raza)
 
 
 
+int perrito_setCantidadComidaRacion(ePerrito* this,float cantidadComidaRacion)
+{
+	int retorno = -1;
 
+	if(this != NULL)
+	{
+		this->cantidadComidaRacion = cantidadComidaRacion;
+		retorno = 0;
+	}
+	return retorno;
+}
+
+int perrito_getCantidadComidaRacion(ePerrito* this,float* cantidadComidaRacion)
+{
+	int retorno = -1;
+
+	if(this != NULL && cantidadComidaRacion != NULL)
+	{
+		*cantidadComidaRacion = this->cantidadComidaRacion;
+		retorno = 0;
+	}
+	return retorno;
+}
 
 
 
